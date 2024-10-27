@@ -22,7 +22,7 @@ body{
     background-color: var(--cor2);
     border-radius: 10px;
     max-width: 400px;
-    min-width: 375px;
+    min-width: 300px;
     margin: 150px auto;
     padding: 30px;
 }
