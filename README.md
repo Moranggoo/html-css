@@ -2,4 +2,5 @@
  Curso de HTML
 
  Teste de repositórios do GitHub!!
- <a href= exercícios/ex001/index.html>Link para ex01</a>
+ 
+ <a href= "https://moranggoo.github.io/html-css/exercícios/001/index.html">Link para ex01</a>
