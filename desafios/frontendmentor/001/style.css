@@ -16,7 +16,7 @@
 body{
     font-family: "Inter", sans-serif;  
     font-weight: normal;
-    margin: 0px;
+    
 }
 #principal {
     background-color: var(--cor1);
@@ -30,8 +30,8 @@ body{
 .conteudo {
     background-color: var(--cor2);
     border-radius: 10px;
-    min-width: 375px;
-    max-width: 375px;
+    min-width: 300px;
+    max-width: 300px;
     padding: 30px;
 }
 img {
