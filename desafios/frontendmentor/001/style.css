@@ -9,10 +9,13 @@
     --cor3: hsl(0, 0%, 20%);
     --cor4: hsl(75, 94%, 57%);
 }
-body{
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
     font-family: "Inter", sans-serif;  
     font-weight: normal;
-    margin: 0px;
     background-color: var(--cor1);
 }
 #principal {
