@@ -14,16 +14,24 @@
     padding: 0px;
 }
 body{
-    font-family: "Inter", sans-serif;
-    background-color: var(--cor1);
+    font-family: "Inter", sans-serif;  
     font-weight: normal;
+    margin: 0px;
 }
 #principal {
+    background-color: var(--cor1);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo {
     background-color: var(--cor2);
     border-radius: 10px;
-    max-width: 400px;
-    min-width: 300px;
-    margin: 150px auto;
+    min-width: 375px;
+    max-width: 375px;
     padding: 30px;
 }
 img {
