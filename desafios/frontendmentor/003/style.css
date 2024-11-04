@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'outfit';
+    src: url(fontes/Outfit-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal; } 
+    @font-face {
+        font-family: 'YoungSerif';
+        src: url(fontes/YoungSerif-Regular.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    :root {
+        --cor1: hsl(30, 54%, 90%);
+        --cor2: hsl(30, 18%, 87%);
+        --cor3: hsl(30, 10%, 34%);
+        --cor4: hsl(24, 5%, 18%);
+        --cor5: hsl(14, 45%, 36%);
+        --cor6: hsl(332, 51%, 32%);
+        --cor7: hsl(330, 100%, 98%);
+        --fonte-padrao: 'outfit' ;
+        --fonte-destaque: 'YoungSerif';
+    }
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        font-family: var(--fonte-padrao);
+        background-color: var(--cor1);
+    }
+    main {
+        background-color: white;
+        max-width: 500px;
+        min-width: 375px;
+        margin: 50px auto 50px auto; 
+        padding: 30px;
+        border-radius: 20px;
+        text-align: justify;
+    }
+    img {
+        display: block;
+        margin: auto;
+    }
+    h1 {
+        font-family: 'YoungSerif';
+        font-weight: normal;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-family: 'YoungSerif';
+        font-weight: normal;
+        color: var(--cor5);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    nav {
+        background-color: var(--cor7);
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    nav > strong {
+        font-size: 1em;
+        color: var(--cor6);
+    }
+    div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-top: 1px solid rgba(0, 0, 0, 0.144);
+        padding-top: 10px;
+    }
+    ul {
+        list-style-position: inside;
+
+    }
+    aside {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-top: 1px solid rgba(0, 0, 0, 0.144);
+        padding-top: 10px;
+    }
+    ol {
+        list-style: none;
+    }
+    span {
+        font-weight: bold;
+        color: var(--cor3);
+    }
+    span.relacionado {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+        padding-bottom: 10px;
+        font-weight: bold;
+        color: var(--cor5);
+    }
+    .diferente {
+        margin-bottom: 20px;
+    }
+    .numerada {
+        color: var(--cor5);
+    }
