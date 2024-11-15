@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead, tfoot {
+            background-color: lightgrey;
+        }
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightgray;
+        }
+        .numero {
+            text-align: right;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
+        }
+        caption {
+            background-color: gray;
+            font-weight: bold;
+            padding: 10px;
+            font-size: 1.5em;
+        }
+        #dados {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grandes</h1>
+    <table>
+        <caption>IDH dos países em 2022</caption>
+        <thead>
+            <th scope="col">País</th>
+            <th scope="col" id="dados">índice de Desenvolvimento Humano</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Suíça</td>
+                <td class="numero">0,967</td>
+            </tr>
+            <tr>
+                <td>Noruega</td>
+                <td class="numero">0,966</td>
+            </tr>
+            <tr>
+                <td>Islândia</td>
+                <td class="numero">0,959</td>
+            </tr>
+            <tr>
+                <td>Hong Kong</td>
+                <td class="numero">0,956</td>
+            </tr>
+            <tr>
+                <td>Dinamarca</td>
+                <td class="numero">0,952</td>
+            </tr>
+            <tr>
+                <td>Suécia</td>
+                <td class="numero">0,952</td>
+            </tr>
+            <tr>
+                <td>Alemanha</td>
+                <td class="numero">0,950</td>
+            </tr>
+            <tr>
+                <td>Irlanda</td>
+                <td class="numero">0,950</td>
+            </tr>
+            <tr>
+                <td>Singapura</td>
+                <td class="numero">0,949</td>
+            </tr>
+            <tr>
+                <td>Austrália</td>
+                <td class="numero">0,946</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Posição do Brasil</th>
+            <td><strong>89°</strong></td>
+        </tfoot>
+    </table>
+</body>
+</html>
