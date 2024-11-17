@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Teste de Forms</h1>
+  <form action="cadastro.php" method="post" autocomplete="on">
+    <p>
+      <label for="name">Nome:</label> <input type="name" name="name" id="name" required minlength="6" maxlength="10" size="10" placeholder="Nome" autocomplete="username">
+    </p>
+    <p>
+      <label for="media">Média</label> <input type="number" name="media" id="media" step="0.1" value="0.1">
+    </p>
+    <p>
+      <label for="mes">Mês</label> <input type="month" name="mes" id="mes" value="2024-08">
+    </p>
+    <p>
+      <label for="data">Data</label> <input type="date" name="data" id="data" value="2024-11-25">
+    </p>
+    <p><input type="submit" value="Enviar"> <input type="reset" value="Limpar"></p>
+  </form>
+</body>
+</html>
