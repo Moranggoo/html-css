@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form 05</title>
+</head>
+<body>
+    <h1>Teste</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+          <legend>Sexo</legend>
+          <p>
+            <input type="radio" name="sex" id="gayzinho" value="gay"> <label for="gayzinho">Gay</label> <br>
+            <input type="radio" name="sex" id="normal" value="normal"> <label for="normal">Normal</label>
+          </p>
+        </fieldset>
+      <fieldset>
+        <legend>Esportes</legend>
+        <p>
+          <input type="checkbox" name="baska" id="baska"> <label for="baska">Baska</label> <br>
+          <input type="checkbox" name="fut" id="fut"> <label for="fut">Futebas</label> <br>
+          <input type="checkbox" name="tenis" id="tenis"> <label for="tenis">Tenis</label> <br>
+          <input type="checkbox" name="pingis" id="pingis"> <label for="pingis">Pings</label>
+        </p>
+      </fieldset>
+        <p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

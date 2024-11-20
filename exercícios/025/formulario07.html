@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms 07</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="cadastro.php" method="post">
+      <p>
+       <label for="est">Estado:</label>
+       <select name="est" id="est">
+        <option value="" selected>---Escolha---</option>
+        <optgroup label="Sudeste">
+          <option value="SP">São Paulo</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PR">Paraná</option>
+        </optgroup>
+        <optgroup label="Norte">
+          <option value="AM">Amazonas</option>
+          <option value="PA">Pará</option>
+          <option value="BA">Bahia</option>
+        </optgroup>
+       </select>
+      </p>
+      <p>
+       <label for="prof">Profissão:</label>
+       <input type="text" name="prof" id="prof" list="lista">
+       <datalist id="lista">
+        <option value="Cont">Contador</option>
+        <option value="Adm">Administrador</option>
+        <option value="Med">Médico</option>
+        <option value="Eng">Engenheiro</option>
+       </datalist>
+      </p>
+      <p>
+        <label for="text">Mensagem:</label> <br>
+        <textarea name="text" id="text" cols="30" rows="10">
+
+        </textarea>
+      </p>
+      <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+      </p>
+    </form>
+</body>
+</html>
