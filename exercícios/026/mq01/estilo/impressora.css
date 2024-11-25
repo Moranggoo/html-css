@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+header {
+  text-align: center;
+}
+nav {
+  display: none;
+}
+article::after {
+  content: 'Escrito por: Felps da teta bicuda';
+  font-weight: bold;
+}
