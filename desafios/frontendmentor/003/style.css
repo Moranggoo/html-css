@@ -79,3 +79,17 @@ a {
   margin-top: 50px;
   margin-left: 10px;
 }
+  @media screen and (max-width: 620px) {
+    article {
+      flex-direction: column;
+      max-width: 375px;
+    }
+    aside {
+      margin-top: -5px;
+      border-radius: 0px 0px 20px 20px;
+    }
+    img {
+      width: 375px;
+      border-radius: 20px 20px 0px 0px;
+    }
+  }
