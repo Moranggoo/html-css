@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+html, body {
+  background-color: lightgray;
+}
+header {
+  background-color: gray;
+
+}
+header h1 {
+  padding: 10px;
+  text-align: center;
+}
+span {
+  color: white;
+  cursor: pointer;
+}
+span:hover {
+  color: black;
+  transition: .3s;
+}
+menu {
+  display: none;
+}
+menu ul {
+  list-style-type: none;
+}
+menu a{
+  text-align: center;
+  display: block;
+  background-color: rgb(68, 68, 68);
+  padding: 10px;
+  border-top: 1px solid rgb(117, 117, 117);
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background-color: grey;
+}
+main {
+  background-color: white;
+  width: 85vw;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+h2, p{
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-indent: 20px;
+  text-align: justify;
+}
+@media only screen and (min-width: 768px) {
+  menu{
+    display: block;
+  }
+  li {
+    display: inline-block;
+  }
+  span#burger {
+    display: none;
+  }
+  main {
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  menu{
+    display: block;
+  }
+  li {
+    display: inline-block;
+  }
+  span#burger {
+    display: none;
+  }
+  main {
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  menu{
+    display: block;
+  }
+  li {
+    display: inline-block;
+  }
+  span#burger {
+    display: none;
+  }
+  main {
+    max-width: 800px;
+  }
+}
