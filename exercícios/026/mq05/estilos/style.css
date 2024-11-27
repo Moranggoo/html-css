@@ -74,31 +74,3 @@ p {
     max-width: 800px;
   }
 }
-@media only screen and (min-width: 992px) {
-  menu{
-    display: block;
-  }
-  li {
-    display: inline-block;
-  }
-  span#burger {
-    display: none;
-  }
-  main {
-    max-width: 800px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  menu{
-    display: block;
-  }
-  li {
-    display: inline-block;
-  }
-  span#burger {
-    display: none;
-  }
-  main {
-    max-width: 800px;
-  }
-}
