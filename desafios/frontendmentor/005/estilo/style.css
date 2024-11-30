@@ -13,12 +13,11 @@ body {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
 }
-main {
-  background-color: rgb(255, 0, 0);
-  width: 100%;
+section {
+  background-color: white;
 }
 article, aside {
-  padding: 20px;
+  padding: 10px;
 }
 img {
   width: 100%;
