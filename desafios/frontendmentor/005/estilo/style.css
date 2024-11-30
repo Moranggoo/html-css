@@ -15,6 +15,7 @@ body {
 }
 section {
   background-color: white;
+  width: 100vw;
 }
 article, aside {
   padding: 20px;
