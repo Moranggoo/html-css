@@ -79,6 +79,9 @@ span {
   border-bottom: 1px solid hsla(32, 10%, 34%, 0.404);
   display: flex;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 @media screen and (min-width:768px) {
   main {
