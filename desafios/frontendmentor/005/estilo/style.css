@@ -15,12 +15,12 @@ body {
 }
 section {
   background-color: white;
-}
-article, aside {
   padding: 10px;
 }
 img {
-  width: 100%;
+  width: 511px;
+  margin-top: -10px;
+  margin-left: -10px;
 }
 article {
   border-bottom: 1px solid hsla(32, 10%, 34%, 0.404);
@@ -91,6 +91,8 @@ span {
     padding: 10px;
   }
   img {
+    width: 100%;
+    margin: 0px;
     border-radius: 10px;
   }
 }
