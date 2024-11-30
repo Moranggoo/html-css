@@ -13,8 +13,8 @@ body {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
 }
-section {
-  background-color: white;
+main {
+  background-color: rgb(255, 0, 0);
   width: 100%;
 }
 article, aside {
