@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tailwind</title>
+</head>
+
+<body>
+    <main class="h-screen w-screen grid md:grid-cols-2 grid-rows-6 grid-cols-1 md:gap-x-20">
+        <article class="row-span-5 md:flex justify-end hidden">
+            <img class="w-max-96" src="img/celula.png" alt="celular">
+        </article>
+        <article class="row-span-5 flex flex-col justify-center items-center md:items-start">
+            <form action="cadastro.php" method="post" class="w-80 flex flex-col justify-center items-center border px-10 pt-10 pb-4 gap-5" autocomplete="on">
+                    <img class="w-52" src="img/insta-logo.png" alt="Logo Instagram">
+                        <input type="text" name="email" id="email" placeholder="Telefone, nome ou email" 
+                        class="bg-slate-50 h-10 w-full pl-3 border rounded-sm" autocomplete="email" required>
+                        <input type="password" name="senha" id="senha" placeholder="Senha" class="bg-slate-50 h-10 w-full pl-3 border rounded-sm" autocomplete="current-password" required>
+                        <input type="submit" value="Entrar" class="bg-sky-500 w-full p-1 rounded-md text-white hover:bg-sky-700">
+                    <p class="text-sky-500">
+                        <i class="fa fa-facebook-square" style="font-size:24px" ></i>
+                        <a href="#" class=" align-top">Entrar com o Facebook</a>
+                    </p>
+                    <p class="text-blue-900"><a href="#" class="text-sm">Esqueceu a senha?</a></p>
+            </form>
+            <aside class="w-80 border px-10 py-5 mt-3">
+                <p>Não tem uma conta? <a href="#" class="text-sky-500">Cadastre-se</a></p>
+            </aside>
+            <nav class="flex flex-col justify-center items-center mt-3">
+                <p>Obtenha o aplicativo.</p>
+                <p class="flex mt-3 gap-2">
+                    <a href="#">
+                        <img class="h-10" src="img/google.png" alt="Loja de Aplicativos google">
+                    </a>
+                    <a href="#">
+                        <img class="h-10" src="img/apple.png" alt="Loja de Aplicativos apple">
+                    </a>
+                </p>
+            </nav>
+        </article>
+        <div class="row-span-1 col-span-2">
+            <ul class="flex flex-wrap justify-center gap-5 text-slate-500 text-sm">
+                <li> Meta</li>
+                <li> Sobre</li>
+                <li> Blog</li>
+                <li> Carreiras</li>
+                <li> Ajuda</li>
+                <li> API</li>
+                <li> Privacidade</li>
+                <li> Termos</li>
+                <li> Localizações</li>
+                <li> Instagram</li> Lite
+                <li> Threads</li>
+                <li> Carregamento de contatos e não usuários</li>
+                <li> Meta Verified</li>
+            </ul>
+            <ul class="flex flex-wrap gap-5 justify-center text-slate-500 text-sm mt-5"> 
+                <li>Português (Brasil)
+                </li>
+                <li>© 2025 Instagram from Meta</li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>
